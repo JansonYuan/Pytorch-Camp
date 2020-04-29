@@ -3,6 +3,7 @@
 ## 课程介绍
 
 1.[超口碑|手把手教你洞悉PyTorch模型训练过程，彻底掌握pytorch基础原理！](https://mp.weixin.qq.com/s/_kGw4bKcZ7YFJLr8p4KJdQ) 
+
 2.[深入浅出Pytorch](https://wx32e0ad0076a9091c.h5.xiaoe-tech.com/v1/course/video/v_5e9e5f6ddcef2_TCLvUDOF?type=2&pro_id=p_5df0ad9a09d37_qYqVmt85) 
  
 ## 课程学习入口
