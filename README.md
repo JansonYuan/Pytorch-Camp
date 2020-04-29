@@ -26,14 +26,18 @@
 
 1. 【任务1】
 
-**任务名称：**PyTorch简介及环境配置；PyTorch基础数据结构——张量
+**任务名称：**
+PyTorch简介及环境配置；PyTorch基础数据结构——张量
 
-**任务简介：**安装PyTorch依赖环境学习PyTorch中的数据结构Tensor和Variable
+**任务简介：**
+安装PyTorch依赖环境学习PyTorch中的数据结构Tensor和Variable
 
-**详细说明：**本节第一部分介绍pytorch及pytorch作为深度学习框架的优势，并且基于Windows系统进行安装Pycharm、Anaconda、Cuda、cudnn和pytorch，环境配置好后会进行demo演示，测试pytorch可以正常使用。
+**详细说明：**
+本节第一部分介绍pytorch及pytorch作为深度学习框架的优势，并且基于Windows系统进行安装Pycharm、Anaconda、Cuda、cudnn和pytorch，环境配置好后会进行demo演示，测试pytorch可以正常使用。
 本节第二部分介绍pytorch中的数据结构——Tensor，Tensor是PyTorch中最基础的概念，其参与了整个运算过程，因此本节将介绍张量的概念和属性，如data, device, dtype等，并介绍tensor的基本创建方法，如直接创建、依数值创建和依概率分布创建等。
 
 **作业名称（详解）：**
+
 1.安装anaconda,pycharm, CUDA+CuDNN（可选），虚拟环境，pytorch，并实现hello pytorch查看pytorch的版本
 
 2.张量与矩阵、向量、标量的关系是怎么样的？
