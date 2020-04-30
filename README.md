@@ -47,6 +47,6 @@ PyTorch简介及环境配置；PyTorch基础数据结构——张量
 
 4.采用torch.from_numpy创建张量，并打印查看ndarray和张量数据的地址；
 
-5.实现torch.normal()创建张量的四种模式。
-- 本节代码下载：
-- 本节课件下载: 
+5.实现torch.normal()创建张量的四种模式。v
+- 本节代码下载：🎐[张量简介及创建](https://github.com/Taurids/deepshare_Pytorch/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/01-02-%E4%BB%A3%E7%A0%81-%E5%BC%A0%E9%87%8F%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%88%9B%E5%BB%BA/lesson-02.py)
+- 本节课件下载: 🎏[Pytorch简介与安装](https://github.com/Taurids/deepshare_Pytorch/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-01-pytorch%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85.pdf)🎏[Pytorch开发环境安装<补充>](https://github.com/Taurids/deepshare_Pytorch/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-01-%E8%A1%A5%E5%85%85-ppt-pytorch%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85.pdf)🎐[张量简介及创建](https://github.com/Taurids/deepshare_Pytorch/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-02-ppt-%E5%BC%A0%E9%87%8F%E7%AE%80%E4%BB%8B%E5%8F%8A%E5%88%9B%E5%BB%BA.pdf)
