@@ -8,7 +8,6 @@
  
 ## 课程学习入口
 
-1.[【体验课】Pytorch框架班体验课](https://wx32e0ad0076a9091c.h5.xiaoe-tech.com/v1/course/column/p_5dd684cb6c698_8quwEK8o?type=3)  
 2.[【随到随学】Pytorch框架班](https://wx32e0ad0076a9091c.h5.xiaoe-tech.com/v1/course/column/p_5df0ad9a09d37_qYqVmt85?type=3)  
 3.[【跟班学】Pytorch框架班第四期](https://wx32e0ad0076a9091c.h5.xiaoe-tech.com/v1/course/column/p_5e86b471126bf_lA4VfCUm?type=3)  
 
