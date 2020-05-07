@@ -24,7 +24,7 @@
 
 ### Week 1
 
-🛴【任务1】
+#### 🛴【任务1】
 
 **任务名称：**
 PyTorch简介及环境配置；PyTorch基础数据结构——张量
@@ -33,7 +33,7 @@ PyTorch简介及环境配置；PyTorch基础数据结构——张量
 安装PyTorch依赖环境学习PyTorch中的数据结构Tensor和Variable
 
 **详细说明：**
-本节第一部分介绍pytorch及pytorch作为深度学习框架的优势，并且基于Windows系统进行安装Pycharm、Anaconda、Cuda、cudnn和pytorch，环境配置好后会进行demo演示，测试pytorch可以正常使用。
+本节第一部分介绍pytorch及pytorch作为深度学习框架的优势，并且基于Windows系统进行安装Pycharm、Anaconda、Cuda、cudnn和pytorch，环境配置好后会进行demo演示，测试pytorch可以正常使用。  
 本节第二部分介绍pytorch中的数据结构——Tensor，Tensor是PyTorch中最基础的概念，其参与了整个运算过程，因此本节将介绍张量的概念和属性，如data, device, dtype等，并介绍tensor的基本创建方法，如直接创建、依数值创建和依概率分布创建等。
 
 **作业名称（详解）：**
@@ -45,7 +45,7 @@ PyTorch简介及环境配置；PyTorch基础数据结构——张量
 - 本节代码下载：🔪[张量简介与创建](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/01-02-%E4%BB%A3%E7%A0%81-%E5%BC%A0%E9%87%8F%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%88%9B%E5%BB%BA/lesson-02.py)
 - 本节课件下载: 📌[Pytorch简介与安装](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-01-pytorch%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85.pdf)📌[Pytorch开发环境安装<补充>](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-01-%E8%A1%A5%E5%85%85-ppt-pytorch%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85.pdf)🔪[张量简介及创建](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-02-ppt-%E5%BC%A0%E9%87%8F%E7%AE%80%E4%BB%8B%E5%8F%8A%E5%88%9B%E5%BB%BA.pdf)
 
-🛴【任务2】
+#### 🛴【任务2】
 
 **任务名称：**
 张量操作与线性回归；计算图与动态图机制
@@ -54,7 +54,7 @@ PyTorch简介及环境配置；PyTorch基础数据结构——张量
 学习张量的基本操作与线性回归模型的实现；学习计算图概念，理解动态图和静态图的差异
 
 **详细说明：**
-本节将介绍张量的基本操作，如张量拼接切分、索引和变换，同时学习张量的数学运算，并基于所学习的知识，实现线性回归模型的训练，以加深知识点的认识。
+本节将介绍张量的基本操作，如张量拼接切分、索引和变换，同时学习张量的数学运算，并基于所学习的知识，实现线性回归模型的训练，以加深知识点的认识。  
 本节第二部分介绍pytorch最大的特性——动态图机制，动态图机制是pytorch与tensorflow最大的区别，该部分首先介绍计算图的概念，并通过演示动态图与静态图的搭建过程来理解动态图与静态图的差异。
 
 **作业名称（详解）：**
@@ -64,7 +64,7 @@ PyTorch简介及环境配置；PyTorch基础数据结构——张量
 - 本节代码下载: 🥥[张量操作](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/01-03-%E4%BB%A3%E7%A0%81-%E5%BC%A0%E9%87%8F%E6%93%8D%E4%BD%9C%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/lesson-03.py)与[线性回归](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/01-03-%E4%BB%A3%E7%A0%81-%E5%BC%A0%E9%87%8F%E6%93%8D%E4%BD%9C%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/lesson-03-Linear-Regression.py)🥝[计算图与动态图机制](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/01-04-%E4%BB%A3%E7%A0%81-%E8%AE%A1%E7%AE%97%E5%9B%BE%E4%B8%8E%E5%8A%A8%E6%80%81%E5%9B%BE%E6%9C%BA%E5%88%B6/lesson-04-Computational-Graph.py)
 - 本节课件下载: 🥥[张量的操作及线性回归](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-03-ppt-%E5%BC%A0%E9%87%8F%E7%9A%84%E6%93%8D%E4%BD%9C%E5%8F%8A%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.pdf)🥝[计算图与动态图机制](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-04-ppt-%E8%AE%A1%E7%AE%97%E5%9B%BE%E4%B8%8E%E5%8A%A8%E6%80%81%E5%9B%BE%E6%9C%BA%E5%88%B6.pdf)
 
-🛴【任务3】
+#### 🛴【任务3】
 
 **任务名称：**
 autograd与逻辑回归
@@ -84,7 +84,7 @@ autograd与逻辑回归
 
 ### Week 2
 
-🛴【任务1】
+#### 🛴【任务1】
 
 **任务名称：**
 PyTorch数据读取机制Dataloader与Dataset；数据预处理transforms模块机制
@@ -107,6 +107,23 @@ PyTorch数据读取机制Dataloader与Dataset；数据预处理transforms模块�
 
 2. 训练RMB二分类模型，熟悉数据读取机制，并且从kaggle中下载猫狗二分类训练数据，自己编写一个DogCatDataset，使得pytorch可以对猫狗二分类训练集进行读取。数据下载：https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
 - 本节代码下载：
-- 本节课件下载:
+- 本节课件下载：🥠[DataLoader与DataSet](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/02-01-ppt-DataLoader%E4%B8%8EDataSet.pdf)🍺[transforms与数据标准化](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/02-02-ppt-transforms%E4%B8%8E%E6%95%B0%E6%8D%AE%E6%A0%87%E5%87%86%E5%8C%96.pdf)
 
+#### 🛴【任务2】
 
+**任务名称：**
+学习二十二种transforms数据预处理方法；学会自定义transforms方法
+
+**任务简介：**
+pytorch提供了大量的transforms预处理方法，在这里归纳总结为四大类共二十二种方法进行一一学习；学会自定义transforms方法以兼容实际项目
+
+**详细说明：**
+本节将介绍张量的基本操作，如张量拼接切分、索引和变换，同时学习张量的数学运算，并基于所学习的知识，实现线性回归模型的训练，以加深知识点的认识。  
+本节第二部分介绍pytorch最大的特性——动态图机制，动态图机制是pytorch与tensorflow最大的区别，该部分首先介绍计算图的概念，并通过演示动态图与静态图的搭建过程来理解动态图与静态图的差异。
+
+**作业名称（详解）：**
+1. 将介绍的transforms方法一一地，单独地实现对图片的变换，并且通过plt.savefig将图片保存下来（不少于10张不一样的数据增强变换的图片，如裁剪，缩放，平移，翻转，色彩变换，错切，遮挡等等）
+
+2. 自定义一个增加椒盐噪声的transforms方法，使得其能正确运行（复制YourTransforms类的代码）
+- 本节代码下载：
+- 本节课件下载：🍻[transforms（一）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/02-03-ppt-transforms%EF%BC%88%E4%B8%80%EF%BC%89.pdf)🍻[transforms（二）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/02-04-ppt-transforms%EF%BC%88%E4%BA%8C%EF%BC%89.pdf)
