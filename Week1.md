@@ -1,10 +1,8 @@
 # PyTorch框架班 
 
-## 课程安排及资料下载
+## Week 1
 
-### Week 1
-
-#### 🛴【任务1】
+### 🛴【任务1】
 
 **任务名称：**
 PyTorch简介及环境配置；PyTorch基础数据结构——张量
@@ -25,7 +23,7 @@ PyTorch简介及环境配置；PyTorch基础数据结构——张量
 - 本节代码下载：🔪[张量简介与创建](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/01-02-%E4%BB%A3%E7%A0%81-%E5%BC%A0%E9%87%8F%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%88%9B%E5%BB%BA/lesson-02.py)
 - 本节课件下载: 📌[Pytorch简介与安装](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-01-pytorch%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85.pdf)📌[Pytorch开发环境安装<补充>](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-01-%E8%A1%A5%E5%85%85-ppt-pytorch%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85.pdf)🔪[张量简介及创建](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-02-ppt-%E5%BC%A0%E9%87%8F%E7%AE%80%E4%BB%8B%E5%8F%8A%E5%88%9B%E5%BB%BA.pdf)
 
-#### 🛴【任务2】
+### 🛴【任务2】
 
 **任务名称：**
 张量操作与线性回归；计算图与动态图机制
@@ -44,7 +42,7 @@ PyTorch简介及环境配置；PyTorch基础数据结构——张量
 - 本节代码下载: 🥥[张量操作](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/01-03-%E4%BB%A3%E7%A0%81-%E5%BC%A0%E9%87%8F%E6%93%8D%E4%BD%9C%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/lesson-03.py)与[线性回归](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/01-03-%E4%BB%A3%E7%A0%81-%E5%BC%A0%E9%87%8F%E6%93%8D%E4%BD%9C%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/lesson-03-Linear-Regression.py)🥝[计算图与动态图机制](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/01-04-%E4%BB%A3%E7%A0%81-%E8%AE%A1%E7%AE%97%E5%9B%BE%E4%B8%8E%E5%8A%A8%E6%80%81%E5%9B%BE%E6%9C%BA%E5%88%B6/lesson-04-Computational-Graph.py)
 - 本节课件下载: 🥥[张量的操作及线性回归](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-03-ppt-%E5%BC%A0%E9%87%8F%E7%9A%84%E6%93%8D%E4%BD%9C%E5%8F%8A%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.pdf)🥝[计算图与动态图机制](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-04-ppt-%E8%AE%A1%E7%AE%97%E5%9B%BE%E4%B8%8E%E5%8A%A8%E6%80%81%E5%9B%BE%E6%9C%BA%E5%88%B6.pdf)
 
-#### 🛴【任务3】
+### 🛴【任务3】
 
 **任务名称：**
 autograd与逻辑回归
