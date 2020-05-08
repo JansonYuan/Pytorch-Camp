@@ -46,7 +46,7 @@ print(alexnet._modules['features']._modules.keys())
 1. 深入理解二维卷积，采用手算的方式实现以下卷积操作，然后**用代码验证**  
   1）采用2个尺寸为3*3的卷积核对3通道的5*5图像进行卷积，padding=0，stride=1，dilation=0
 其中 input shape = （3， 5， 5），数据如下  
-![在这里插入图片描述](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E5%86%85%E5%AE%B9%E5%9B%BE%E7%89%87/Week3_3.png)
+![](https://github.com/JansonYuan/Pytorch-Camp/blob/master/picture/Week3_3.jpg)
 kernel size = 3*3，第一个卷积核所有权值均为1，第二个卷积核所有权值均为2，  
 **计算输出的feature map尺寸以及所有像素值**  
   2）接1）题，上下左右四条边均采用padding，padding=1，填充值为0，计算输出的feature map尺寸以及所有像素值  
