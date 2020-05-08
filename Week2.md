@@ -44,7 +44,7 @@ pytorch提供了大量的transforms预处理方法，在这里归纳总结为四
 1. 将介绍的transforms方法一一地，单独地实现对图片的变换，并且通过plt.savefig将图片保存下来（不少于10张不一样的数据增强变换的图片，如裁剪，缩放，平移，翻转，色彩变换，错切，遮挡等等）
 
 2. 自定义一个增加椒盐噪声的transforms方法，使得其能正确运行（复制YourTransforms类的代码）
-- 本节代码下载：
+- 本节代码下载：🍻[transforms（一）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/02-03-%E4%BB%A3%E7%A0%81-transforms%EF%BC%88%E4%B8%80%EF%BC%89/lesson-08-transforms_methods_1.py)🍻[transforms（二）](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/02-04-%E4%BB%A3%E7%A0%81-transforms%EF%BC%88%E4%BA%8C%EF%BC%89)
 - 本节课件下载：🍻[transforms（一）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/02-03-ppt-transforms%EF%BC%88%E4%B8%80%EF%BC%89.pdf)🍻[transforms（二）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/02-04-ppt-transforms%EF%BC%88%E4%BA%8C%EF%BC%89.pdf)
 
 
