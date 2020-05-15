@@ -35,7 +35,7 @@
 3. 二十二种transforms数据预处理方法
 4. 学会自定义transforms方法
 
-### 🍜Week3
+### 🍜[Week3](https://github.com/JansonYuan/Pytorch-Camp/blob/master/Week3.md)
 1. nn.Module与网络模型构建步骤
 2. 模型容器与AlexNet构建
 3. 网络层中的卷积层
