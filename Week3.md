@@ -26,9 +26,12 @@ nn.Module与网络模型构建步骤；模型容器与AlexNet构建
 
 2. 采用sequential容器，改写Alexnet，给features中每一个网络层增加名字，并通过下面这行代码打印出来  
 print(alexnet._modules['features']._modules.keys())
-- 本节代码下载：🥠[DataLoader与DataSet](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/02-01-%E4%BB%A3%E7%A0%81-DataLoader%E4%B8%8EDataset/02-01-DataLoader%E4%B8%8EDataset)🍺[transforms与数据标准化](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/02-02-%E4%BB%A3%E7%A0%81-transforms%E4%B8%8E%E6%95%B0%E6%8D%AE%E6%A0%87%E5%87%86%E5%8C%96/lesson-07-Logistic-Regression-norm.py)
-- 本节课件下载：🥠[DataLoader与DataSet](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/02-01-ppt-DataLoader%E4%B8%8EDataSet.pdf)🍺[transforms与数据标准化](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/02-02-ppt-transforms%E4%B8%8E%E6%95%B0%E6%8D%AE%E6%A0%87%E5%87%86%E5%8C%96.pdf)
-
+- 本节代码下载：
+🥛[模型构建步骤与nn.Module](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/03-01-%E4%BB%A3%E7%A0%81-%E6%A8%A1%E5%9E%8B%E5%88%9B%E5%BB%BA%E6%AD%A5%E9%AA%A4%E4%B8%8Enn.Module/lesson-10-create_module.py)
+🍸[模型容器与AlexNet](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/03-02-%E4%BB%A3%E7%A0%81-%E6%A8%A1%E5%9E%8B%E5%AE%B9%E5%99%A8%E4%B8%8EAlexNet%E6%9E%84%E5%BB%BA/lesson-11-module_containers.py)
+- 本节课件下载：
+🥛[模型构建步骤与nn.Module](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/03-01-ppt--%E6%A8%A1%E5%9E%8B%E5%88%9B%E5%BB%BA%E6%AD%A5%E9%AA%A4%E4%B8%8Enn.Module.pdf)
+🍸[模型容器与AlexNet](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/03-02-ppt-%E6%A8%A1%E5%9E%8B%E5%AE%B9%E5%99%A8%E4%B8%8EAlexNet%E6%9E%84%E5%BB%BA.pdf)
 ### 🛴【任务2】
 
 **任务名称：**  
@@ -65,8 +68,9 @@ if flag:
     img_conv = conv_layer(img_tensor)
 ```
 
-- 本节代码下载：🍻[transforms（一）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/02-03-%E4%BB%A3%E7%A0%81-transforms%EF%BC%88%E4%B8%80%EF%BC%89/lesson-08-transforms_methods_1.py)🍻[transforms（二）](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/02-04-%E4%BB%A3%E7%A0%81-transforms%EF%BC%88%E4%BA%8C%EF%BC%89)
-- 本节课件下载：🍻[transforms（一）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/02-03-ppt-transforms%EF%BC%88%E4%B8%80%EF%BC%89.pdf)🍻[transforms（二）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/02-04-ppt-transforms%EF%BC%88%E4%BA%8C%EF%BC%89.pdf)
-
-
-
+- 本节代码下载：
+🍨[nn网络层-卷积层](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/03-03-%E4%BB%A3%E7%A0%81-nn%E7%BD%91%E7%BB%9C%E5%B1%82-%E5%8D%B7%E7%A7%AF%E5%B1%82)
+🍩[nn网络层-池化-线性-激活函数](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/03-04-%E4%BB%A3%E7%A0%81-nn%E7%BD%91%E7%BB%9C%E5%B1%82-%E6%B1%A0%E5%8C%96-%E7%BA%BF%E6%80%A7-%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0)
+- 本节课件下载：
+🍨[nn网络层-卷积层](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/03-03-ppt-nn%E7%BD%91%E7%BB%9C%E5%B1%82-%E5%8D%B7%E7%A7%AF%E5%B1%82.pdf)
+🍩[nn网络层-池化-线性-激活函数](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/03-04-ppt-nn%E7%BD%91%E7%BB%9C%E5%B1%82-%E6%B1%A0%E5%8C%96-%E7%BA%BF%E6%80%A7-%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0.pdf)
