@@ -20,7 +20,7 @@
 
 关注公众号**深度之眼**，后台回复GPU获取GPU使用教程！
 
-## 课程安排及资料下载
+## 课程安排及资料下载（[作业讲解代码地址](https://github.com/greebear/pytorch-learning)）
 
 ### 🍬[Week 1](https://github.com/JansonYuan/Pytorch-Camp/blob/master/Week1.md)
 1. Pytorch简介及环境配置
