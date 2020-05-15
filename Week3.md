@@ -14,10 +14,10 @@ nn.Module与网络模型构建步骤；模型容器与AlexNet构建
 本节第一部分介绍网络模型的基本类nn.Module，nn.Module是所有网络层的基本类，它拥有8个有序字典，用于管理模型属性，本节课中将要学习如何构建一个Module。  
 然后通过网络结构和计算图两个角度去观察搭建一个网络模型需要两个步骤：第一步，搭建子模块；第二步，拼接子模块。  
 
-本节第二部分介绍搭建网络模型常用的容器，如Sequential，ModuleList, ModuleDict，然后学习pytorch提供的Alexnet网络模型结构加深对模型容器的认识  
+本节第二部分介绍搭建网络模型常用的容器，如Sequential，ModuleList, ModuleDict，然后学习pytorch提供的Alexnet网络模型结构加深对模型容器的认识。  
 
 **作业名称（详解）：**  
-1. 采用步进(Step into)的调试方法从创建网络模型开始（**net = LeNet(classes=2)**）进入到每一个被调用函数，观察net的_modules字段何时被**构建**并且**赋值**，记录其中所有进入的类与函数   
+1. 采用步进(Step into)的调试方法从创建网络模型开始（net = LeNet(classes=2)）进入到每一个被调用函数，观察net的_modules字段何时被**构建**并且**赋值**，记录其中所有进入的类与函数   
 例如：  
 第一步：net = LeNet(classes=2)  
 第二步：LeNet类，__init__()，super(LeNet, self).__init__()  
