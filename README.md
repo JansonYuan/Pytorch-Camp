@@ -41,7 +41,7 @@
 3. 网络层中的卷积层
 4. 网络层中的池化层、全连接层和激活函数层
 
-### 🍖Week4
+### 🍖[Week4](https://github.com/JansonYuan/Pytorch-Camp/blob/master/Week4.md)
 1. 权值初始化
 2. 损失函数（一）
 3. Pytorch的14种损失函数
