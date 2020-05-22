@@ -36,8 +36,8 @@ weights = torch.tensor([1, 2], dtype=torch.float）
 🍀[权值初始化](https://github.com/JansonYuan/Pytorch-Camp/blob/master/代码合集/04-01-代码-权值初始化/lesson-14-grad_vanish_explod.py)
 🌸[损失函数（一）](https://github.com/JansonYuan/Pytorch-Camp/tree/master/代码合集/04-02-代码-损失函数(一)/lesson-15)
 - 本节课件下载：
-🍀[模型构建步骤与nn.Module](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/03-01-ppt--%E6%A8%A1%E5%9E%8B%E5%88%9B%E5%BB%BA%E6%AD%A5%E9%AA%A4%E4%B8%8Enn.Module.pdf)
-🌸[模型容器与AlexNet](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/03-02-ppt-%E6%A8%A1%E5%9E%8B%E5%AE%B9%E5%99%A8%E4%B8%8EAlexNet%E6%9E%84%E5%BB%BA.pdf)
+🍀[权值初始化](https://github.com/JansonYuan/Pytorch-Camp/blob/master/课件合集/04-01-ppt-权值初始化.pdf)
+🌸[损失函数（一）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/课件合集/04-02-ppt-损失函数(一).pdf)
 ### 🛴【任务2】
 
 **任务名称：**  
@@ -70,7 +70,7 @@ pytorch的14种损失函数；优化器optimizer的概念
 - 本节代码下载：
 🏵[损失函数（二）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/代码合集/04-03-代码-损失函数(二)/lesson-16-loss_function_2.py)
 - 本节课件下载：
-🏵[nn网络层-卷积层](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/03-03-ppt-nn%E7%BD%91%E7%BB%9C%E5%B1%82-%E5%8D%B7%E7%A7%AF%E5%B1%82.pdf)
+🏵[损失函数（二）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/课件合集/04-03-ppt-损失函数(二).pdf)
 
 ### 🛴【任务3】
 
@@ -89,3 +89,6 @@ torch.optim.SGD
 - 本节代码下载：
 🍏[优化器（一）](https://github.com/JansonYuan/Pytorch-Camp/tree/master/代码合集/04-04-代码-优化器%EF%BC%88一%EF%BC%89/lesson-17)
 🍎[优化器（二）](https://github.com/JansonYuan/Pytorch-Camp/tree/master/代码合集/04-05-代码-优化器%EF%BC%88二%EF%BC%89/lesson-18)
+- 本节课件下载：
+🍏[优化器（一）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/课件合集/04-04-ppt-优化器%EF%BC%88一%EF%BC%89.pdf)
+🍎[优化器（二）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/课件合集/04-05-ppt-优化器%EF%BC%88二%EF%BC%89.pdf)
