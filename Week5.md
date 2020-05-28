@@ -65,6 +65,7 @@ hook函数与CAM(class activation map, 类激活图)
 3. torch.nn.Module.register_forward_pre_hook
 4. torch.nn.Module.register_backward_hook
 最后，介绍CAM可视化及其改进算法Grad-CAM  
+
 **作业名称（详解）：** 
 1. 采用torch.nn.Module.register_forward_hook机制实现AlexNet第一个卷积层输出特征图的可视化，并将/torchvision/models/alexnet.py中第28行改为：nn.ReLU(inplace=False)，观察
 inplace=True与inplace=False的差异。
