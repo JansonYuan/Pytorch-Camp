@@ -48,7 +48,7 @@
 4. 优化器optimizer的概念
 5. torch.optim.SGD
 
-### 🍹Week5
+### 🍹[Week5](https://github.com/JansonYuan/Pytorch-Camp/blob/master/Week5.md)
 1. 学习率调整
 2. TensorBoard简介与安装
 3. TensorBoard使用（一）
