@@ -19,11 +19,11 @@
 1. 熟悉TensorBoard的运行机制，安装TensorBoard，并绘制曲线 y = 2*x。
 
 - 本节代码下载：
-🍀[权值初始化](https://github.com/JansonYuan/Pytorch-Camp/blob/master/代码合集/04-01-代码-权值初始化/lesson-14-grad_vanish_explod.py)
-🌸[损失函数（一）](https://github.com/JansonYuan/Pytorch-Camp/tree/master/代码合集/04-02-代码-损失函数(一)/lesson-15)
+🍄[学习率调整策略](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/05-01-%E4%BB%A3%E7%A0%81-%E5%AD%A6%E4%B9%A0%E7%8E%87%E8%B0%83%E6%95%B4%E7%AD%96%E7%95%A5/lesson-19)
+🥑[TensorBoard简介与安装](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/05-02-%E4%BB%A3%E7%A0%81-TensorBoard%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85/lesson-20/test_tensorboard.py)
 - 本节课件下载：
-🍀[权值初始化](https://github.com/JansonYuan/Pytorch-Camp/blob/master/课件合集/04-01-ppt-权值初始化.pdf)
-🌸[损失函数（一）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/课件合集/04-02-ppt-损失函数(一).pdf)
+🍄[学习率调整策略](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/05-01-ppt-%E5%AD%A6%E4%B9%A0%E7%8E%87%E8%B0%83%E6%95%B4%E7%AD%96%E7%95%A5.pdf)
+🥑[TensorBoard简介与安装](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/05-02-ppt-TensorBoard%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85.pdf)
 ### 🛴【任务2】
 
 **任务名称：**  
@@ -44,9 +44,11 @@ TensorBoard使用(一)；TensorBoard使用(二)；
 2. 采用make_grid，对任意图像训练输入数据进行批量可视化。
 
 - 本节代码下载：
-🏵[损失函数（二）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/代码合集/04-03-代码-损失函数(二)/lesson-16-loss_function_2.py)
+🍆[TensorBoard使用（一）](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/05-03-%E4%BB%A3%E7%A0%81-TensorBoard%E4%BD%BF%E7%94%A8%EF%BC%88%E4%B8%80%EF%BC%89/lesson-21)
+🥜[TensorBoard使用（二）](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/05-04-%E4%BB%A3%E7%A0%81-TensorBoard%E4%BD%BF%E7%94%A8%EF%BC%88%E4%BA%8C%EF%BC%89/lesson-22)
 - 本节课件下载：
-🏵[损失函数（二）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/课件合集/04-03-ppt-损失函数(二).pdf)
+🍆[TensorBoard使用（一）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/05-03-ppt-TensorBoard%E4%BD%BF%E7%94%A8%EF%BC%88%E4%B8%80%EF%BC%89.pdf)
+🥜[TensorBoard使用（二）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/05-04-ppt-TensorBoard%E4%BD%BF%E7%94%A8%EF%BC%88%E4%BA%8C%EF%BC%89.pdf)
 
 ### 🛴【任务3】
 
@@ -68,8 +70,6 @@ hook函数与CAM(class activation map, 类激活图)
 inplace=True与inplace=False的差异。
 
 - 本节代码下载：
-🍏[优化器（一）](https://github.com/JansonYuan/Pytorch-Camp/tree/master/代码合集/04-04-代码-优化器%EF%BC%88一%EF%BC%89/lesson-17)
-🍎[优化器（二）](https://github.com/JansonYuan/Pytorch-Camp/tree/master/代码合集/04-05-代码-优化器%EF%BC%88二%EF%BC%89/lesson-18)
+🌽[hook函数与CAM可视化](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/05-05-%E4%BB%A3%E7%A0%81-hook%E5%87%BD%E6%95%B0%E4%B8%8ECAM%E5%8F%AF%E8%A7%86%E5%8C%96/lesson-23)
 - 本节课件下载：
-🍏[优化器（一）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/课件合集/04-04-ppt-优化器%EF%BC%88一%EF%BC%89.pdf)
-🍎[优化器（二）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/课件合集/04-05-ppt-优化器%EF%BC%88二%EF%BC%89.pdf)
+🌽[hook函数与CAM可视化](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/05-05-ppt-hook%E5%87%BD%E6%95%B0%E4%B8%8ECAM%E5%8F%AF%E8%A7%86%E5%8C%96.pdf)
