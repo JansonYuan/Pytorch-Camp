@@ -51,16 +51,21 @@ TensorBoard使用(一)；TensorBoard使用(二)；
 ### 🛴【任务3】
 
 **任务名称：**  
-torch.optim.SGD
+hook函数与CAM(class activation map, 类激活图)
 
 **任务简介：**  
-学习最常用的优化器， optim.SGD
+学习pytorch的hook函数机制以及CAM可视化算法
 
 **详细说明：**
-深入了解学习率和momentum在梯度下降法中的作用，分析LR和Momentum这两个参数对优化过程的影响，最后学习optim.SGD以及pytorch的十种优化器简介。
-
+深入学习了解pytorch的hook函数运行机制，介绍pytorch中提供的4种hook函数，分别为：
+1. torch.Tensor.register_hook(hook)
+2. torch.nn.Module.register_forward_hook
+3. torch.nn.Module.register_forward_pre_hook
+4. torch.nn.Module.register_backward_hook
+最后，介绍CAM可视化及其改进算法Grad-CAM
 **作业名称（详解）：** 
-1. 优化器的作用是管理并更新参数组，请构建一个SGD优化器，通过add_param_group方法添加三组参数，三组参数的学习率分别为 0.01， 0.02， 0.03， momentum分别为0.9, 0.8, 0.7，构建好之后，并打印优化器中的param_groups属性中的每一个元素的key和value（提示：param_groups是list，其每一个元素是一个字典）
+1. 采用torch.nn.Module.register_forward_hook机制实现AlexNet第一个卷积层输出特征图的可视化，并将/torchvision/models/alexnet.py中第28行改为：nn.ReLU(inplace=False)，观察
+inplace=True与inplace=False的差异。
 
 - 本节代码下载：
 🍏[优化器（一）](https://github.com/JansonYuan/Pytorch-Camp/tree/master/代码合集/04-04-代码-优化器%EF%BC%88一%EF%BC%89/lesson-17)
