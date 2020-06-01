@@ -55,7 +55,7 @@
 4. TensorBoard使用（二）
 5. hook函数与CAM
 
-### 🍦Week6
+### 🍦[Week6](https://github.com/JansonYuan/Pytorch-Camp/blob/master/Week6.md)
 1. weight_decay
 2. dropout
 3. Batch Normalization
