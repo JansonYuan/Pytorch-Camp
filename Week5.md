@@ -41,7 +41,7 @@ TensorBoard使用(一)；TensorBoard使用(二)；
 **作业名称（详解）：**  
 1. 可视化任意网络模型训练的Loss，及Accuracy曲线图，Train与Valid必须在同一个图中。
 
-2. 采用make_grid，对任意图像训练输入数据进行批量可视化。
+2. 采用make_grid，对任意图像训练输入数据进行批量可视化。 
 
 - 本节代码下载：
 🍆[TensorBoard使用（一）](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/05-03-%E4%BB%A3%E7%A0%81-TensorBoard%E4%BD%BF%E7%94%A8%EF%BC%88%E4%B8%80%EF%BC%89/lesson-21)
@@ -64,10 +64,10 @@ hook函数与CAM(class activation map, 类激活图)
 2. torch.nn.Module.register_forward_hook
 3. torch.nn.Module.register_forward_pre_hook
 4. torch.nn.Module.register_backward_hook
-最后，介绍CAM可视化及其改进算法Grad-CAM
+最后，介绍CAM可视化及其改进算法Grad-CAM  
+
 **作业名称（详解）：** 
-1. 采用torch.nn.Module.register_forward_hook机制实现AlexNet第一个卷积层输出特征图的可视化，并将/torchvision/models/alexnet.py中第28行改为：nn.ReLU(inplace=False)，观察
-inplace=True与inplace=False的差异。
+1. 采用torch.nn.Module.register_forward_hook机制实现AlexNet第一个卷积层输出特征图的可视化，并将/torchvision/models/alexnet.py中第28行改为：nn.ReLU(inplace=False)，观察inplace=True与inplace=False的差异。
 
 - 本节代码下载：
 🌽[hook函数与CAM可视化](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/05-05-%E4%BB%A3%E7%A0%81-hook%E5%87%BD%E6%95%B0%E4%B8%8ECAM%E5%8F%AF%E8%A7%86%E5%8C%96/lesson-23)
