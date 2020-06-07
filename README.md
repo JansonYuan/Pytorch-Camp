@@ -62,7 +62,7 @@
 4. Layer Normalization、Instance
 5. Normalization和Group Normalization
 
-### 🍭Week7
+### 🍭[Week7]((https://github.com/JansonYuan/Pytorch-Camp/blob/master/Week7.md))
 1. 模型保存与加载
 2. Finetune
 3. GPU的使用
