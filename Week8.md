@@ -21,8 +21,10 @@
 2. 采用自拍或证件照，执行人像mask的分割  
 
 - 本节代码下载：
-🎠[图像分类一瞥](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/08-01-%E4%BB%A3%E7%A0%81-%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E4%B8%80%E7%9E%A5/lesson-32)[hymenoptera_data](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/08-01-%E6%95%B0%E6%8D%AE-hymenoptera_data.rar)
-🎡[图像分割一瞥](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/08-02-%E4%BB%A3%E7%A0%81-%E5%9B%BE%E5%83%8F%E5%88%86%E5%89%B2%E4%B8%80%E7%9E%A5)[PortraitDataset](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/08-02-%E6%95%B0%E6%8D%AE-PortraitDataset.zip)
+🎠[图像分类一瞥](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/08-01-%E4%BB%A3%E7%A0%81-%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E4%B8%80%E7%9E%A5/lesson-32)
+🎠数据[hymenoptera_data](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/08-01-%E6%95%B0%E6%8D%AE-hymenoptera_data.rar)
+🎡[图像分割一瞥](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/08-02-%E4%BB%A3%E7%A0%81-%E5%9B%BE%E5%83%8F%E5%88%86%E5%89%B2%E4%B8%80%E7%9E%A5)
+🎡数据[PortraitDataset](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/08-02-%E6%95%B0%E6%8D%AE-PortraitDataset.zip)
 - 本节课件下载：
 🎠[图像分类一瞥](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/08-01-ppt-%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E4%B8%80%E7%9E%A5.pdf)
 🎡[图像分割一瞥](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/08-02-ppt-%E5%9B%BE%E5%83%8F%E5%88%86%E5%89%B2%E4%B8%80%E7%9E%A5.pdf)
@@ -44,7 +46,7 @@
 
 - 本节代码下载：
 🎢[图像目标检测一瞥](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/08-03-%E4%BB%A3%E7%A0%81-%E5%9B%BE%E5%83%8F%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E4%B8%80%E7%9E%A5)
-[PennFudanPed](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/08-03-%E6%95%B0%E6%8D%AE-PennFudanPed.rar)
+🎢数据[PennFudanPed](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/08-03-%E6%95%B0%E6%8D%AE-PennFudanPed.rar)
 
 - 本节课件下载：
 🎢[图像目标检测一瞥](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/07-03-ppt-GPU%E7%9A%84%E4%BD%BF%E7%94%A8.pdf)
