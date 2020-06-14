@@ -68,7 +68,7 @@
 3. GPU的使用
 4. Pytorch中常见报错
 
-### 🍷Week8
+### 🍷[Week8](https://github.com/JansonYuan/Pytorch-Camp/blob/master/Week8.md)
 1. 图像分类一瞥
 2. 图像分割一瞥
 3. 目标检测一瞥（上）
