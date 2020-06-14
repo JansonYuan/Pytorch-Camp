@@ -21,11 +21,11 @@
 2. 采用自拍或证件照，执行人像mask的分割  
 
 - 本节代码下载：
-🥉[模型保存与加载](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/07-01-%E4%BB%A3%E7%A0%81-%E6%A8%A1%E5%9E%8B%E4%BF%9D%E5%AD%98%E4%B8%8E%E5%8A%A0%E8%BD%BD/lesson-28)
-🥈[模型finetune](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/07-02-%E4%BB%A3%E7%A0%81-%E6%A8%A1%E5%9E%8Bfinetune/lesson-29/finetune_resnet18.py)🥈[数据](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/07-02-%E6%95%B0%E6%8D%AE-%E6%A8%A1%E5%9E%8Bfinetune.zip)
+🎠[图像分类一瞥](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/08-01-%E4%BB%A3%E7%A0%81-%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E4%B8%80%E7%9E%A5/lesson-32)[hymenoptera_data](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/08-01-%E6%95%B0%E6%8D%AE-hymenoptera_data.rar)
+🎡[图像分割一瞥](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/08-02-%E4%BB%A3%E7%A0%81-%E5%9B%BE%E5%83%8F%E5%88%86%E5%89%B2%E4%B8%80%E7%9E%A5)[PortraitDataset](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/08-02-%E6%95%B0%E6%8D%AE-PortraitDataset.zip)
 - 本节课件下载：
-🥉[模型保存与加载](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/07-01-ppt-%E6%A8%A1%E5%9E%8B%E4%BF%9D%E5%AD%98%E4%B8%8E%E5%8A%A0%E8%BD%BD.pdf)
-🥈[模型finetune](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/07-02-ppt-%E6%A8%A1%E5%9E%8Bfinetune.pdf)
+🎠[图像分类一瞥](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/08-01-ppt-%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB%E4%B8%80%E7%9E%A5.pdf)
+🎡[图像分割一瞥](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/08-02-ppt-%E5%9B%BE%E5%83%8F%E5%88%86%E5%89%B2%E4%B8%80%E7%9E%A5.pdf)
 
 ### 🛴【任务2】
 
@@ -43,8 +43,9 @@
 1. 在A4纸上画出PyTorch中的Faster RCNN流程，并注明各模块数据的shape   
 
 - 本节代码下载：
-🏅[GPU的使用](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/07-03-%E4%BB%A3%E7%A0%81-GPU%E7%9A%84%E4%BD%BF%E7%94%A8/lesson-30)
-🥇[PyTorch常见报错](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/07-04-%E4%BB%A3%E7%A0%81-PyTorch%E5%B8%B8%E8%A7%81%E6%8A%A5%E9%94%99/lesson-31)
+🎢[图像目标检测一瞥](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/08-03-%E4%BB%A3%E7%A0%81-%E5%9B%BE%E5%83%8F%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E4%B8%80%E7%9E%A5)
+[PennFudanPed](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/08-03-%E6%95%B0%E6%8D%AE-PennFudanPed.rar)
+
 - 本节课件下载：
-🏅[GPU的使用](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/07-03-ppt-GPU%E7%9A%84%E4%BD%BF%E7%94%A8.pdf)
-🥇[PyTorch常见报错](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/07-04-ppt-PyTorch%E5%B8%B8%E8%A7%81%E6%8A%A5%E9%94%99.pdf)
+🎢[图像目标检测一瞥](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/07-03-ppt-GPU%E7%9A%84%E4%BD%BF%E7%94%A8.pdf)
+
