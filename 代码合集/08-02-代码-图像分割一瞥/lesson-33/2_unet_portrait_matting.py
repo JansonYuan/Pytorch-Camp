@@ -51,8 +51,8 @@ if __name__ == "__main__":
     vis_num = 10
     mask_thres = 0.5
 
-    train_dir = os.path.join(BASE_DIR, "data", "PortraitDataset", "train")
-    valid_dir = os.path.join(BASE_DIR, "data", "PortraitDataset", "valid")
+    train_dir = os.path.join(BASE_DIR, "..", "..", "data", "PortraitDataset", "train")
+    valid_dir = os.path.join(BASE_DIR, "..", "..", "data", "PortraitDataset", "valid")
 
     # step 1
     train_set = PortraitDataset(train_dir)
