@@ -55,20 +55,20 @@
 4. TensorBoard使用（二）
 5. hook函数与CAM
 
-### 🍦Week6
+### 🍦[Week6](https://github.com/JansonYuan/Pytorch-Camp/blob/master/Week6.md)
 1. weight_decay
 2. dropout
 3. Batch Normalization
 4. Layer Normalization、Instance
 5. Normalization和Group Normalization
 
-### 🍭Week7
+### 🍭[Week7](https://github.com/JansonYuan/Pytorch-Camp/blob/master/Week7.md)
 1. 模型保存与加载
 2. Finetune
 3. GPU的使用
 4. Pytorch中常见报错
 
-### 🍷Week8
+### 🍷[Week8](https://github.com/JansonYuan/Pytorch-Camp/blob/master/Week8.md)
 1. 图像分类一瞥
 2. 图像分割一瞥
 3. 目标检测一瞥（上）
