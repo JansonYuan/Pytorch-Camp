@@ -25,17 +25,15 @@
 ### 🛴【任务2】
 
 **任务名称：**  
-目标检测一瞥（上）；目标检测一瞥（下）  
+循环神经网络一瞥
 **任务简介：**  
-了解目标检测概念；熟悉Faster RCNN；
+了解RNN结构及实现
 
 **详细说明：**  
-本节第一部分学习认识深度学习模型如何进行图像目标检测，同时对常见的目标检测模型进行简单介绍以及介绍One-Stage与Two-Stage之间的差异； 
-
-本节第二部分详细剖析经典的tow-stage检测模型——Faster RCNN，对Faster RCNN的数据流进行跟踪，最后训练Faster RCNN完成行人检测
+本节第一部分学习RNN网络结构，及其处理不定长输入数据的工作流程，最后训练一个RNN实现人名分类
 
 **作业名称（详解）：**  
-1. 在A4纸上画出PyTorch中的Faster RCNN流程，并注明各模块数据的shape   
+1. 在\data\data\names\Chinese.txt中添加自己的姓名，迭代训练20000次后执行predict("your name") 
 
 - 本节代码下载：
 🎫[循环神经网络一瞥](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/09-02-%E4%BB%A3%E7%A0%81-%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%80%E7%9E%A5/lesson-36)
