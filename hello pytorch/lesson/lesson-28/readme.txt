@@ -1,0 +1,2 @@
+先运行model_save.py，再运行model_load.py
+先运行save_checkpoint.py，再运行checkpoint_resume.py
