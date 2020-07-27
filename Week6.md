@@ -1,6 +1,7 @@
 # PyTorch框架班 
 
 ## 🎯Week 6
+- 代码下载: ☕[autograd](https://github.com/JansonYuan/Pytorch-Camp/tree/master/hello%20pytorch)
 
 ### 🛴【任务1】
 
@@ -19,12 +20,7 @@ weight_decay；dropout
 1. weight decay在pytorch的SGD中实现代码是哪一行？它对应的数学公式为？
 
 2. PyTorch中，Dropout在训练的时候权值尺度会进行什么操作？
-- 本节代码下载：
-🌭[正则化之weight_decay](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/06-01-%E4%BB%A3%E7%A0%81-%E6%AD%A3%E5%88%99%E5%8C%96%E4%B9%8Bweight_decay/lesson-24/L2_regularization.py)
-🍟[正则化-Dropout](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/06-02-%E4%BB%A3%E7%A0%81-%E6%AD%A3%E5%88%99%E5%8C%96-Dropout/lesson-25)
-- 本节课件下载：
-🌭[正则化之weight_decay](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/06-01-ppt-%E6%AD%A3%E5%88%99%E5%8C%96%E4%B9%8Bweight_decay.pdf)
-🍟[正则化-Dropout](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/06-02-ppt-%E6%AD%A3%E5%88%99%E5%8C%96-Dropout.pdf)
+
 ### 🛴【任务2】
 
 **任务名称：**  
@@ -43,9 +39,3 @@ Batch Normalization；Layer Normalizatoin、Instance Normalizatoin和Group Norma
 
 2. 课程结尾的 “加减乘除”是什么意思？
 
-- 本节代码下载：
-🍘[Batch Normalization](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/06-03-%E4%BB%A3%E7%A0%81-Batch%20Normalization/lesson-26)
-🍙[Normalizaiton_layers](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/06-04-%E4%BB%A3%E7%A0%81-Normalizaiton_layers/lesson-27/normallization_layers.py)
-- 本节课件下载：
-🍘[Batch Normalization](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/06-03-Batch%20Normalization.pdf)
-🍙[Normalizaiton_layers](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/06-04-ppt-Normalizaiton_layers.pdf)
