@@ -1,6 +1,7 @@
 # PyTorch框架班 
 
 ## 🎯Week 7
+- 代码下载: ☕[autograd](https://github.com/JansonYuan/Pytorch-Camp/tree/master/hello%20pytorch)
 
 ### 🛴【任务1】
 
@@ -20,12 +21,7 @@
 **打卡要求**：赋值print的信息或截图重新加载进来的参数的数值
 
 2. 一句话描述迁移学习研究内容。
-- 本节代码下载：
-🥉[模型保存与加载](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/07-01-%E4%BB%A3%E7%A0%81-%E6%A8%A1%E5%9E%8B%E4%BF%9D%E5%AD%98%E4%B8%8E%E5%8A%A0%E8%BD%BD/lesson-28)
-🥈[模型finetune](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/07-02-%E4%BB%A3%E7%A0%81-%E6%A8%A1%E5%9E%8Bfinetune/lesson-29/finetune_resnet18.py)🥈[数据](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/07-02-%E6%95%B0%E6%8D%AE-%E6%A8%A1%E5%9E%8Bfinetune.zip)
-- 本节课件下载：
-🥉[模型保存与加载](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/07-01-ppt-%E6%A8%A1%E5%9E%8B%E4%BF%9D%E5%AD%98%E4%B8%8E%E5%8A%A0%E8%BD%BD.pdf)
-🥈[模型finetune](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/07-02-ppt-%E6%A8%A1%E5%9E%8Bfinetune.pdf)
+
 ### 🛴【任务2】
 
 **任务名称：**  
@@ -44,9 +40,3 @@ GPU的使用；PyTorch中常见报错
 
 2. 尝试贡献一个pytorch中的报错信息/存在的坑（选做）。
 
-- 本节代码下载：
-🏅[GPU的使用](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/07-03-%E4%BB%A3%E7%A0%81-GPU%E7%9A%84%E4%BD%BF%E7%94%A8/lesson-30)
-🥇[PyTorch常见报错](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/07-04-%E4%BB%A3%E7%A0%81-PyTorch%E5%B8%B8%E8%A7%81%E6%8A%A5%E9%94%99/lesson-31)
-- 本节课件下载：
-🏅[GPU的使用](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/07-03-ppt-GPU%E7%9A%84%E4%BD%BF%E7%94%A8.pdf)
-🥇[PyTorch常见报错](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/07-04-ppt-PyTorch%E5%B8%B8%E8%A7%81%E6%8A%A5%E9%94%99.pdf)
