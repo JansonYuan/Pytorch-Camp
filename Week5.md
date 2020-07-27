@@ -1,6 +1,7 @@
 # PyTorch框架班 
 
 ## 🎯Week 5
+- 代码下载: ☕[autograd](https://github.com/JansonYuan/Pytorch-Camp/tree/master/hello%20pytorch)
 
 ### 🛴【任务1】
 
@@ -18,12 +19,6 @@
 **作业名称（详解）：**  
 1. 熟悉TensorBoard的运行机制，安装TensorBoard，并绘制曲线 y = 2*x。
 
-- 本节代码下载：
-🍄[学习率调整策略](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/05-01-%E4%BB%A3%E7%A0%81-%E5%AD%A6%E4%B9%A0%E7%8E%87%E8%B0%83%E6%95%B4%E7%AD%96%E7%95%A5/lesson-19)
-🥑[TensorBoard简介与安装](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/05-02-%E4%BB%A3%E7%A0%81-TensorBoard%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85/lesson-20/test_tensorboard.py)
-- 本节课件下载：
-🍄[学习率调整策略](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/05-01-ppt-%E5%AD%A6%E4%B9%A0%E7%8E%87%E8%B0%83%E6%95%B4%E7%AD%96%E7%95%A5.pdf)
-🥑[TensorBoard简介与安装](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/05-02-ppt-TensorBoard%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85.pdf)
 ### 🛴【任务2】
 
 **任务名称：**  
@@ -43,12 +38,6 @@ TensorBoard使用(一)；TensorBoard使用(二)；
 
 2. 采用make_grid，对任意图像训练输入数据进行批量可视化。 
 
-- 本节代码下载：
-🍆[TensorBoard使用（一）](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/05-03-%E4%BB%A3%E7%A0%81-TensorBoard%E4%BD%BF%E7%94%A8%EF%BC%88%E4%B8%80%EF%BC%89/lesson-21)
-🥜[TensorBoard使用（二）](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/05-04-%E4%BB%A3%E7%A0%81-TensorBoard%E4%BD%BF%E7%94%A8%EF%BC%88%E4%BA%8C%EF%BC%89/lesson-22)
-- 本节课件下载：
-🍆[TensorBoard使用（一）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/05-03-ppt-TensorBoard%E4%BD%BF%E7%94%A8%EF%BC%88%E4%B8%80%EF%BC%89.pdf)
-🥜[TensorBoard使用（二）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/05-04-ppt-TensorBoard%E4%BD%BF%E7%94%A8%EF%BC%88%E4%BA%8C%EF%BC%89.pdf)
 
 ### 🛴【任务3】
 
@@ -69,7 +58,3 @@ hook函数与CAM(class activation map, 类激活图)
 **作业名称（详解）：** 
 1. 采用torch.nn.Module.register_forward_hook机制实现AlexNet第一个卷积层输出特征图的可视化，并将/torchvision/models/alexnet.py中第28行改为：nn.ReLU(inplace=False)，观察inplace=True与inplace=False的差异。
 
-- 本节代码下载：
-🌽[hook函数与CAM可视化](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/05-05-%E4%BB%A3%E7%A0%81-hook%E5%87%BD%E6%95%B0%E4%B8%8ECAM%E5%8F%AF%E8%A7%86%E5%8C%96/lesson-23)
-- 本节课件下载：
-🌽[hook函数与CAM可视化](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/05-05-ppt-hook%E5%87%BD%E6%95%B0%E4%B8%8ECAM%E5%8F%AF%E8%A7%86%E5%8C%96.pdf)
