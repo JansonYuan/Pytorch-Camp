@@ -1,6 +1,7 @@
 # PyTorch框架班 
 
 ## 🎯Week 2
+- 代码下载: ☕[autograd](https://github.com/JansonYuan/Pytorch-Camp/tree/master/hello%20pytorch)
 
 ### 🛴【任务1】
 
@@ -24,9 +25,6 @@ PyTorch数据读取机制Dataloader与Dataset；数据预处理transforms模块�
 第n步：RMBDataset类，__getitem__函数  
 
 2. 训练RMB二分类模型，熟悉数据读取机制，并且从kaggle中下载猫狗二分类训练数据，自己编写一个DogCatDataset，使得pytorch可以对猫狗二分类训练集进行读取。数据下载：https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
-- RMB_data下载：[人民币数据](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/02-01-%E6%95%B0%E6%8D%AE-RMB_data.rar)
-- 本节代码下载：🥠[DataLoader与DataSet](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/02-01-%E4%BB%A3%E7%A0%81-DataLoader%E4%B8%8EDataset/02-01-DataLoader%E4%B8%8EDataset)🍺[transforms与数据标准化](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/02-02-%E4%BB%A3%E7%A0%81-transforms%E4%B8%8E%E6%95%B0%E6%8D%AE%E6%A0%87%E5%87%86%E5%8C%96/lesson-07-Logistic-Regression-norm.py)
-- 本节课件下载：🥠[DataLoader与DataSet](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/02-01-ppt-DataLoader%E4%B8%8EDataSet.pdf)🍺[transforms与数据标准化](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/02-02-ppt-transforms%E4%B8%8E%E6%95%B0%E6%8D%AE%E6%A0%87%E5%87%86%E5%8C%96.pdf)
 
 ### 🛴【任务2】
 
@@ -44,8 +42,6 @@ pytorch提供了大量的transforms预处理方法，在这里归纳总结为四
 1. 将介绍的transforms方法一一地，单独地实现对图片的变换，并且通过plt.savefig将图片保存下来（不少于10张不一样的数据增强变换的图片，如裁剪，缩放，平移，翻转，色彩变换，错切，遮挡等等）
 
 2. 自定义一个增加椒盐噪声的transforms方法，使得其能正确运行（复制YourTransforms类的代码）
-- 本节代码下载：🍻[transforms（一）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/02-03-%E4%BB%A3%E7%A0%81-transforms%EF%BC%88%E4%B8%80%EF%BC%89/lesson-08-transforms_methods_1.py)🍻[transforms（二）](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/02-04-%E4%BB%A3%E7%A0%81-transforms%EF%BC%88%E4%BA%8C%EF%BC%89)
-- 本节课件下载：🍻[transforms（一）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/02-03-ppt-transforms%EF%BC%88%E4%B8%80%EF%BC%89.pdf)🍻[transforms（二）](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/02-04-ppt-transforms%EF%BC%88%E4%BA%8C%EF%BC%89.pdf)
 
 
 
