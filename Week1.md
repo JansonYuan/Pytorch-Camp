@@ -2,6 +2,8 @@
 
 ## 🎯Week 1
 
+- 本节代码下载: ☕[autograd](https://github.com/JansonYuan/Pytorch-Camp/tree/master/hello%20pytorch)
+
 ### 🛴【任务1】
 
 **任务名称：**  
@@ -20,8 +22,7 @@ PyTorch简介及环境配置；PyTorch基础数据结构——张量
 3. Variable“赋予”张量什么功能？
 4. 采用torch.from_numpy创建张量，并打印查看ndarray和张量数据的地址；
 5. 实现torch.normal()创建张量的四种模式。
-- 本节代码下载：🔪[张量简介与创建](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/01-02-%E4%BB%A3%E7%A0%81-%E5%BC%A0%E9%87%8F%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%88%9B%E5%BB%BA/lesson-02.py)
-- 本节课件下载: 📌[Pytorch简介与安装](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-01-pytorch%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%AE%89%E8%A3%85.pdf)📌[Pytorch开发环境安装<补充>](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-01-%E8%A1%A5%E5%85%85-ppt-pytorch%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85.pdf)🔪[张量简介及创建](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-02-ppt-%E5%BC%A0%E9%87%8F%E7%AE%80%E4%BB%8B%E5%8F%8A%E5%88%9B%E5%BB%BA.pdf)
+
 
 ### 🛴【任务2】
 
@@ -39,8 +40,7 @@ PyTorch简介及环境配置；PyTorch基础数据结构——张量
 1. 调整线性回归模型停止条件以及y = 2*x + (5 + torch.randn(20, 1))中的斜率，训练一个线性回归模型；
 2. 计算图的两个主要概念是什么？
 3. 动态图与静态图的区别是什么？
-- 本节代码下载: 🥥[张量操作](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/01-03-%E4%BB%A3%E7%A0%81-%E5%BC%A0%E9%87%8F%E6%93%8D%E4%BD%9C%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/lesson-03.py)与[线性回归](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/01-03-%E4%BB%A3%E7%A0%81-%E5%BC%A0%E9%87%8F%E6%93%8D%E4%BD%9C%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/lesson-03-Linear-Regression.py)🥝[计算图与动态图机制](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/01-04-%E4%BB%A3%E7%A0%81-%E8%AE%A1%E7%AE%97%E5%9B%BE%E4%B8%8E%E5%8A%A8%E6%80%81%E5%9B%BE%E6%9C%BA%E5%88%B6/lesson-04-Computational-Graph.py)
-- 本节课件下载: 🥥[张量的操作及线性回归](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-03-ppt-%E5%BC%A0%E9%87%8F%E7%9A%84%E6%93%8D%E4%BD%9C%E5%8F%8A%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.pdf)🥝[计算图与动态图机制](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-04-ppt-%E8%AE%A1%E7%AE%97%E5%9B%BE%E4%B8%8E%E5%8A%A8%E6%80%81%E5%9B%BE%E6%9C%BA%E5%88%B6.pdf)
+
 
 ### 🛴【任务3】
 
@@ -57,5 +57,4 @@ autograd与逻辑回归
 1. 逻辑回归模型为什么可以进行二分类？
 2. 采用代码实现逻辑回归模型的训练，并尝试调整数据生成中的mean_value，将mean_value设置为更小的值，例如1，或者更大的值，例如5，会出现什么情况？  
 再尝试仅调整bias，将bias调为更大或者负数，模型训练过程是怎么样的？
-- 本节代码下载: ☕[autograd](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/01-05-%E4%BB%A3%E7%A0%81-autograd%E4%B8%8E%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92/lesson-05-autograd.py)与[逻辑回归](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/01-05-%E4%BB%A3%E7%A0%81-autograd%E4%B8%8E%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92/lesson-05-Logistic-Regression.py)
-- 本节课件下载: ☕[autograd与逻辑回归](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/01-05-ppt-autograd%E4%B8%8E%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92.pdf)
+
