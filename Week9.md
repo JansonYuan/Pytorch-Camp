@@ -1,6 +1,7 @@
 # PyTorch框架班 
 
 ## 🎯Week 9
+- 代码下载: ☕[autograd](https://github.com/JansonYuan/Pytorch-Camp/tree/master/hello%20pytorch)
 
 ### 🛴【任务1】
 
@@ -18,12 +19,6 @@
 
 2. 训练一个DCGAN，生成人脸图像
 
-- 本节代码下载：
-🎟[生成对抗网络一瞥](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/09-01-%E4%BB%A3%E7%A0%81-%E7%94%9F%E6%88%90%E5%AF%B9%E6%8A%97%E7%BD%91%E7%BB%9C%E4%B8%80%E7%9E%A5/GAN-%E4%BB%A3%E7%A0%81)
-🎟数据[img_align_celeba_2k](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/09-01-%E6%95%B0%E6%8D%AE-img_align_celeba_2k.zip)
-
-- 本节课件下载：
-🎟[生成对抗网络一瞥](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/09-01-ppt-%E7%94%9F%E6%88%90%E5%AF%B9%E6%8A%97%E7%BD%91%E7%BB%9C%E4%B8%80%E7%9E%A5.pdf)
 
 ### 🛴【任务2】
 
@@ -37,11 +32,4 @@
 
 **作业名称（详解）：**  
 1. 在\data\data\names\Chinese.txt中添加自己的姓名，迭代训练20000次后执行predict("your name") 
-
-- 本节代码下载：
-🎫[循环神经网络一瞥](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/09-02-%E4%BB%A3%E7%A0%81-%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%80%E7%9E%A5/lesson-36)
-🎫数据[names](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/09-02-%E6%95%B0%E6%8D%AE-names.zip)
-
-- 本节课件下载：
-🎫[循环神经网络一瞥](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/09-02-ppt-%E5%BE%AA%E7%8E%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%80%E7%9E%A5.pdf)
 
