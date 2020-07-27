@@ -1,6 +1,7 @@
 # PyTorch框架班 
 
 ## 🎯Week 3
+- 代码下载: ☕[autograd](https://github.com/JansonYuan/Pytorch-Camp/tree/master/hello%20pytorch)
 
 ### 🛴【任务1】
 
@@ -26,12 +27,7 @@ nn.Module与网络模型构建步骤；模型容器与AlexNet构建
 
 2. 采用sequential容器，改写Alexnet，给features中每一个网络层增加名字，并通过下面这行代码打印出来  
 print(alexnet._modules['features']._modules.keys())
-- 本节代码下载：
-🥛[模型构建步骤与nn.Module](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/03-01-%E4%BB%A3%E7%A0%81-%E6%A8%A1%E5%9E%8B%E5%88%9B%E5%BB%BA%E6%AD%A5%E9%AA%A4%E4%B8%8Enn.Module/lesson-10-create_module.py)
-🍸[模型容器与AlexNet](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/03-02-%E4%BB%A3%E7%A0%81-%E6%A8%A1%E5%9E%8B%E5%AE%B9%E5%99%A8%E4%B8%8EAlexNet%E6%9E%84%E5%BB%BA/lesson-11-module_containers.py)
-- 本节课件下载：
-🥛[模型构建步骤与nn.Module](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/03-01-ppt--%E6%A8%A1%E5%9E%8B%E5%88%9B%E5%BB%BA%E6%AD%A5%E9%AA%A4%E4%B8%8Enn.Module.pdf)
-🍸[模型容器与AlexNet](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/03-02-ppt-%E6%A8%A1%E5%9E%8B%E5%AE%B9%E5%99%A8%E4%B8%8EAlexNet%E6%9E%84%E5%BB%BA.pdf)
+
 ### 🛴【任务2】
 
 **任务名称：**  
@@ -48,8 +44,7 @@ print(alexnet._modules['features']._modules.keys())
 **作业名称（详解）：**  
 1. 深入理解二维卷积，采用手算的方式实现以下卷积操作，然后**用代码验证**  
   1）采用2个尺寸为3*3的卷积核对3通道的5*5图像进行卷积，padding=0，stride=1，dilation=0  
-其中 input shape = （3， 5， 5），数据如下  
-![image](https://github.com/JansonYuan/Pytorch-Camp/blob/master/picture/Week3_3.jpg)  
+其中 input shape = （3， 5， 5）,
 kernel size = 3*3，第一个卷积核所有权值均为1，第二个卷积核所有权值均为2，  
 **计算输出的feature map尺寸以及所有像素值**  
   2）接1）题，上下左右四条边均采用padding，padding=1，填充值为0，计算输出的feature map尺寸以及所有像素值  
@@ -67,10 +62,3 @@ if flag:
     img_tensor.unsqueeze_(dim=2)    # B*C*H*W to B*C*D*H*W
     img_conv = conv_layer(img_tensor)
 ```
-
-- 本节代码下载：
-🍨[nn网络层-卷积层](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/03-03-%E4%BB%A3%E7%A0%81-nn%E7%BD%91%E7%BB%9C%E5%B1%82-%E5%8D%B7%E7%A7%AF%E5%B1%82)
-🍩[nn网络层-池化-线性-激活函数](https://github.com/JansonYuan/Pytorch-Camp/tree/master/%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86/03-04-%E4%BB%A3%E7%A0%81-nn%E7%BD%91%E7%BB%9C%E5%B1%82-%E6%B1%A0%E5%8C%96-%E7%BA%BF%E6%80%A7-%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0)
-- 本节课件下载：
-🍨[nn网络层-卷积层](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/03-03-ppt-nn%E7%BD%91%E7%BB%9C%E5%B1%82-%E5%8D%B7%E7%A7%AF%E5%B1%82.pdf)
-🍩[nn网络层-池化-线性-激活函数](https://github.com/JansonYuan/Pytorch-Camp/blob/master/%E8%AF%BE%E4%BB%B6%E5%90%88%E9%9B%86/03-04-ppt-nn%E7%BD%91%E7%BB%9C%E5%B1%82-%E6%B1%A0%E5%8C%96-%E7%BA%BF%E6%80%A7-%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0.pdf)
