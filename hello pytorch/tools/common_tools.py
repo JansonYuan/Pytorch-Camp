@@ -29,7 +29,7 @@ def transform_invert(img_, transform_train):
         img_.mul_(std[:, None, None]).add_(mean[:, None, None])
 
     img_ = img_.transpose(0, 2).transpose(0, 1)  # C*H*W --> H*W*C
-    if 'ToTensor' in str(transform_train):
+    if 'ToTensor' in str(transform_train) or img_.max() < 1:
         img_ = img_.detach().numpy() * 255
 
     if img_.shape[2] == 3:
