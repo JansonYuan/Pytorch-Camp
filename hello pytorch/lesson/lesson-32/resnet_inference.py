@@ -83,17 +83,19 @@ def get_model(m_path, vis_model=False):
 
 
 if __name__ == "__main__":
+
     BASEDIR = os.path.dirname(os.path.abspath(__file__))
-    data_dir = os.path.join(BASEDIR, "..", "..", "data", "hymenoptera_data")
+    data_dir = os.path.abspath(os.path.join(BASEDIR, "..", "..", "data", "hymenoptera_data"))
     if not os.path.exists(data_dir):
-        raise Exception("\n{} 不存在，请下载 07-02-数据-模型finetune.zip\n放到 {}下，并解压即可".format(
+        raise Exception("\n{} 不存在，请下载 07-02-数据-模型finetune.zip  放到\n{}  下，并解压即可".format(
             data_dir, os.path.dirname(data_dir)))
 
     img_dir = os.path.join(data_dir, "val", "bees")
-    model_path = os.path.join(BASEDIR, "..", "..", "data", "resnet_checkpoint_14_epoch.pkl")
+    model_path = os.path.abspath(os.path.join(BASEDIR, "..", "..", "data", "resnet_checkpoint_14_epoch.pkl"))
     if not os.path.exists(model_path):
-        raise Exception("\n{} 不存在，请下载 08-01-数据-20200724.zip\n放到 {}下，并解压即可".format(
+        raise Exception("\n{} 不存在，请下载 08-01-数据-20200724.zip  放到\n{}  下，并解压即可".format(
             model_path, os.path.dirname(model_path)))
+
     time_total = 0
     img_list, img_pred = list(), list()
 

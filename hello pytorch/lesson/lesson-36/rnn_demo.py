@@ -169,9 +169,9 @@ def train(category_tensor, line_tensor):
 
 if __name__ == "__main__":
     # config
-    data_dir = os.path.join(BASE_DIR, "..", "..", "data", "rnn_data", "names")
+    data_dir = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "data", "rnn_data", "names"))
     if not os.path.exists(data_dir):
-        raise Exception("\n{} 不存在，请下载 08-05-数据-20200724.zip\n放到 {}下，并解压即可".format(
+        raise Exception("\n{} 不存在，请下载 08-05-数据-20200724.zip  放到\n{}  下，并解压即可".format(
             data_dir, os.path.dirname(data_dir)))
 
     path_txt = os.path.join(data_dir, "*.txt")
@@ -231,9 +231,9 @@ if __name__ == "__main__":
             all_losses.append(current_loss / plot_every)
             current_loss = 0
 
-path_model = os.path.join(BASE_DIR, "..", "..", "data", "rnn_state_dict.pkl")
+path_model = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "data", "rnn_state_dict.pkl"))
 if not os.path.exists(path_model):
-    raise Exception("\n{} 不存在，请下载 08-05-数据-20200724.zip\n放到 {}下，并解压即可".format(
+    raise Exception("\n{} 不存在，请下载 08-05-数据-20200724.zip  放到\n{}  下，并解压即可".format(
         path_model, os.path.dirname(path_model)))
 torch.save(rnn.state_dict(), path_model)
 plt.plot(all_losses)

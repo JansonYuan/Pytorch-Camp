@@ -79,11 +79,11 @@ def get_model(m_path):
 
 if __name__ == "__main__":
 
-    img_dir = os.path.join(BASE_DIR, "..", "..", "data", "PortraitDataset", "valid")
-    model_path = os.path.join(BASE_DIR, "..", "..", "data", "unet_checkpoint_399_epoch.pkl")
+    img_dir = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "data", "PortraitDataset", "valid"))
+    model_path = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "data", "unet_checkpoint_399_epoch.pkl"))
 
     if not os.path.exists(model_path):
-        raise Exception("\n{} 不存在，请下载 08-02-数据-PortraitDataset-20200724.zip\n放到 {}下，并解压即可".format(
+        raise Exception("\n{} 不存在，请下载 08-02-数据-PortraitDataset-20200724.zip 放到\n{}  下，并解压即可".format(
             model_path, os.path.dirname(model_path)))
 
     time_total = 0

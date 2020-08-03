@@ -41,10 +41,11 @@ lr_decay_step = 7
 
 
 # ============================ step 1/5 数据 ============================
-data_dir = os.path.join(BASEDIR, "..", "..", "data", "hymenoptera_data")
+data_dir = os.path.abspath(os.path.join(BASEDIR, "..", "..", "data", "hymenoptera_data"))
 if not os.path.exists(data_dir):
-    raise Exception("\n{} 不存在，请下载 07-02-数据-模型finetune.zip\n放到 {}下，并解压即可".format(
+    raise Exception("\n{} 不存在，请下载 07-02-数据-模型finetune.zip  放到\n{} 下，并解压即可".format(
         data_dir, os.path.dirname(data_dir)))
+
 train_dir = os.path.join(data_dir, "train")
 valid_dir = os.path.join(data_dir, "val")
 

@@ -11,8 +11,8 @@ from matplotlib import pyplot as plt
 from torch.utils.data import DataLoader
 import torchvision.transforms as transforms
 
-path_lenet = os.path.join(BASE_DIR, "..", "..", "model", "lenet.py")
-path_tools = os.path.join(BASE_DIR, "..", "..", "tools", "common_tools.py")
+path_lenet = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "model", "lenet.py"))
+path_tools = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "tools", "common_tools.py"))
 assert os.path.exists(path_lenet), "{}不存在，请将lenet.py文件放到 {}".format(path_lenet, os.path.dirname(path_lenet))
 assert os.path.exists(path_tools), "{}不存在，请将common_tools.py文件放到 {}".format(path_tools, os.path.dirname(path_tools))
 
@@ -35,7 +35,9 @@ rmb_label = {"1": 0, "100": 1}
 
 
 # ============================ step 1/5 数据 ============================
-split_dir = os.path.join("..", "..", "data", "rmb_split")
+split_dir = os.path.abspath(os.path.join("..", "..", "data", "rmb_split"))
+if not os.path.exists(split_dir):
+    raise Exception(r"数据 {} 不存在, 回到lesson-06\1_split_dataset.py生成数据".format(split_dir))
 train_dir = os.path.join(split_dir, "train")
 valid_dir = os.path.join(split_dir, "valid")
 

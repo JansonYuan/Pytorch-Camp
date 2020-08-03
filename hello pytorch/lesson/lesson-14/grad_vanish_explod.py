@@ -11,7 +11,7 @@ import torch
 import random
 import numpy as np
 import torch.nn as nn
-path_tools = os.path.join(BASE_DIR, "..", "..", "tools", "common_tools.py")
+path_tools = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "tools", "common_tools.py"))
 assert os.path.exists(path_tools), "{}不存在，请将common_tools.py文件放到 {}".format(path_tools, os.path.dirname(path_tools))
 
 import sys

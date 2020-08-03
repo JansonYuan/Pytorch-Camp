@@ -55,9 +55,9 @@ if __name__ == "__main__":
     vis_num = 10
     mask_thres = 0.5
 
-    data_dir = os.path.join(BASE_DIR, "..", "..", "data", "PortraitDataset")
+    data_dir = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "data", "PortraitDataset"))
     if not os.path.exists(data_dir):
-        raise Exception("\n{} 不存在，请下载 08-02-数据-PortraitDataset-20200724.zip\n放到 {}下，并解压即可".format(
+        raise Exception("\n{} 不存在，请下载 08-02-数据-PortraitDataset-20200724.zip  放到\n{}  下，并解压即可".format(
             data_dir, os.path.dirname(data_dir)))
     train_dir = os.path.join(data_dir, "train")
     valid_dir = os.path.join(data_dir, "valid")

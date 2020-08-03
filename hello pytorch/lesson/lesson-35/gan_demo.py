@@ -28,12 +28,12 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 set_seed(1)  # 设置随机种子
 
-data_dir = os.path.join(BASE_DIR, "..", "..", "data", "img_align_celeba_2k")
+data_dir = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "data", "img_align_celeba_2k"))
 if not os.path.exists(data_dir):
-    raise Exception("\n{} 不存在，请下载 08-04-数据-20200724.zip\n放到 {}下，并解压即可".format(
+    raise Exception("\n{} 不存在，请下载 08-04-数据-20200724.zip  放到\n{}  下，并解压即可".format(
         data_dir, os.path.dirname(data_dir)))
 
-out_dir = os.path.join(BASE_DIR, "..", "..", "results", "log_gan")
+out_dir = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "results", "log_gan"))
 if not os.path.exists(out_dir):
     os.makedirs(out_dir)
     print("\n创建文件夹 {} 用于存储GAN网络训练日志等信息\n".format(out_dir))

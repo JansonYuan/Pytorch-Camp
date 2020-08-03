@@ -21,11 +21,11 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 if __name__ == "__main__":
 
 
-    # path_img = os.path.join(BASE_DIR, "..", "..", "data", "demo_img1.png")
-    # path_img = os.path.join(BASE_DIR, "..", "..", "data", "demo_img2.png")
-    path_img = os.path.join(BASE_DIR, "..", "..", "data", "demo_img3.png")
+    # path_img = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "data", "demo_img1.png"))
+    # path_img = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "data", "demo_img2.png"))
+    path_img = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "data", "demo_img3.png"))
     if not os.path.exists(path_img):
-        raise Exception("\n{} 不存在，请下载 08-02-数据-PortraitDataset-20200724.zip\n放到 {}下，并解压即可".format(
+        raise Exception("\n{} 不存在，请下载 08-02-数据-PortraitDataset-20200724.zip  放到\n{}  下，并解压即可".format(
             path_img, os.path.dirname(path_img)))
 
     # config

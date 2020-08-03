@@ -41,9 +41,9 @@ def remove_module(state_dict_g):
 set_seed(1)  # 设置随机种子
 
 # config
-path_checkpoint = os.path.join(BASE_DIR, "..", "..", "data", "dcgan_checkpoint_14_epoch.pkl")
+path_checkpoint = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "data", "dcgan_checkpoint_14_epoch.pkl"))
 if not os.path.exists(path_checkpoint):
-    raise Exception("\n{} 不存在，请下载 08-04-数据-20200724.zip\n放到 {}下，并解压即可".format(
+    raise Exception("\n{} 不存在，请下载 08-04-数据-20200724.zip  放到\n{}  下，并解压即可".format(
         path_checkpoint, os.path.dirname(path_checkpoint)))
 
 image_size = 64

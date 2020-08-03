@@ -113,11 +113,11 @@ if __name__ == "__main__":
     num_classes = 2
     batch_size = 1
     start_epoch, max_epoch = 0, 30
-    train_dir = os.path.join(BASE_DIR, "..", "..", "data", "PennFudanPed")
+    train_dir = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "data", "PennFudanPed"))
     train_transform = Compose([ToTensor(), RandomHorizontalFlip(0.5)])
 
     if not os.path.exists(train_dir):
-        raise Exception("\n{} 不存在，请下载 08-03-数据-20200724.zip\n放到 {}下，并解压即可".format(
+        raise Exception("\n{} 不存在，请下载 08-03-数据-20200724.zip  放到\n{}  下，并解压即可".format(
             train_dir, os.path.dirname(train_dir)))
 
     # step 1: data

@@ -15,7 +15,7 @@ import torch.nn as nn
 from torchvision import transforms
 from matplotlib import pyplot as plt
 from PIL import Image
-path_tools = os.path.join(BASE_DIR, "..", "..", "tools", "common_tools.py")
+path_tools = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "tools", "common_tools.py"))
 assert os.path.exists(path_tools), "{}不存在，请将common_tools.py文件放到 {}".format(path_tools, os.path.dirname(path_tools))
 
 import sys

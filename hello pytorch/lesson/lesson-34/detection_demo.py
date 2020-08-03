@@ -39,10 +39,10 @@ COCO_INSTANCE_CATEGORY_NAMES = [
 
 if __name__ == "__main__":
 
-    # path_img = os.path.join(BASE_DIR "..", "..", "data", "det_demo_img1.png")
-    path_img = os.path.join(BASE_DIR,  "..", "..", "data", "det_demo_img2.png")
+    # path_img = os.path.abspath(os.path.join(BASE_DIR "..", "..", "data", "det_demo_img1.png"))
+    path_img = os.path.abspath(os.path.join(BASE_DIR,  "..", "..", "data", "det_demo_img2.png"))
     if not os.path.exists(path_img):
-        raise Exception("\n{} 不存在，请下载 08-03-数据-20200724.zip\n放到 {}下，并解压即可".format(
+        raise Exception("\n{} 不存在，请下载 08-03-数据-20200724.zip 放到 \n{}  下，并解压即可".format(
             path_img, os.path.dirname(path_img)))
     # config
     preprocess = transforms.Compose([
