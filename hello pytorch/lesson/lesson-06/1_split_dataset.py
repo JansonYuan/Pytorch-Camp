@@ -21,9 +21,9 @@ if __name__ == '__main__':
 
     dataset_dir = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "data", "RMB_data"))
     split_dir = os.path.abspath(os.path.join(BASE_DIR, "..", "..", "data", "rmb_split"))
-    train_dir = os.path.join(BASE_DIR, split_dir, "train")
-    valid_dir = os.path.join(BASE_DIR, split_dir, "valid")
-    test_dir = os.path.join(BASE_DIR, split_dir, "test")
+    train_dir = os.path.join(split_dir, "train")
+    valid_dir = os.path.join(split_dir, "valid")
+    test_dir = os.path.join(split_dir, "test")
 
     if not os.path.exists(dataset_dir):
         raise Exception("\n{} 不存在，请下载 02-01-数据-RMB_data.rar 放到\n{} 下，并解压即可".format(
