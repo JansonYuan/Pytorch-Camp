@@ -56,10 +56,10 @@ if flag:
 
 # ===============================  example 4 ===============================
 # 通过torch.full创建全1张量
-# flag = True
-flag = False
+flag = True
+# flag = False
 if flag:
-    t = torch.full((3, 3), 1)
+    t = torch.full((3, 3), 1.)  # 1.6之后若不指定dtype，就需要传入浮点数
     print(t)
 
 
@@ -82,8 +82,8 @@ if flag:
 
 # ===============================  example 7 ===============================
 # 通过torch.normal创建正态分布张量
-flag = True
-# flag = False
+# flag = True
+flag = False
 if flag:
 
     # mean：张量 std: 张量
