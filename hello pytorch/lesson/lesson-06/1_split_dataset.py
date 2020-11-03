@@ -44,7 +44,7 @@ if __name__ == '__main__':
             train_point = int(img_count * train_pct)
             valid_point = int(img_count * (train_pct + valid_pct))
 
-            if len(img_count) == 0:
+            if img_count == 0:
                 print("{}目录下，无图片，请检查".format(os.path.join(root, sub_dir)))
                 import sys
                 sys.exit(0)
