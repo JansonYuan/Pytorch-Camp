@@ -22,7 +22,7 @@ import sys
 hello_pytorch_DIR = os.path.abspath(os.path.dirname(__file__)+os.path.sep+".."+os.path.sep+"..")
 sys.path.append(hello_pytorch_DIR)
 
-from tools.common_tools import set_seed
+from tools.common_tools import set_seed, transform_invert
 
 set_seed(1)  # 设置随机种子
 
