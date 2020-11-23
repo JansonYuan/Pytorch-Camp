@@ -106,7 +106,9 @@ flag = 0
 if flag:
 
     inputs = torch.tensor([[0.5, 0.3, 0.2], [0.2, 0.3, 0.5]])
-    inputs_log = torch.log(inputs)
+    # pytorch函数计算公式不是原始定义公式，其对输入默认已经取log了，在损失函数计算中比公式定义少了一个log（input）的操作
+    # 因此公式定义里有一个log(y_i / x_i)，在pytorch变为了 log(y_i) - x_i，
+    inputs = F.log_softmax(inputs, 1)
     target = torch.tensor([[0.9, 0.05, 0.05], [0.1, 0.7, 0.2]], dtype=torch.float)
 
     loss_f_none = nn.KLDivLoss(reduction='none')
@@ -372,10 +374,5 @@ if flag:
     loss = ctc_loss(inputs, target, input_lengths, target_lengths)
 
     print("CTC loss: ", loss)
-
-
-
-
-
 
 
