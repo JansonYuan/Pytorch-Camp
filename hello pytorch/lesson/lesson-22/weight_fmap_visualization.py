@@ -32,6 +32,7 @@ if flag:
 
     kernel_num = -1
     vis_max = 1
+    # 避免pytorch1.7下的一个小bug，增加 torch.no_grad
     with torch.no_grad():
         for sub_module in alexnet.modules():
             if isinstance(sub_module, nn.Conv2d):
