@@ -180,7 +180,7 @@ for i, data in enumerate(valid_loader):
     rmb = 1 if predicted.numpy()[0] == 0 else 100
 
     img_tensor = inputs[0, ...]  # C H W
-    img = transform_invert(img_tensor, train_transform)
+    img = transform_invert(img_tensor, valid_transform)
     plt.imshow(img)
     plt.title("LeNet got {} Yuan".format(rmb))
     plt.show()
