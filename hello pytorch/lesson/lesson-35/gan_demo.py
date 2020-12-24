@@ -122,11 +122,11 @@ if __name__ == '__main__':
             # create training data
             real_img = data.to(device)
             b_size = real_img.size(0)
-            real_label = torch.full((b_size,), real_idx, device=device)
+            real_label = torch.full((b_size,), real_idx, device=device, dtype=torch.float)
 
-            noise = torch.randn(b_size, nz, 1, 1, device=device)
+            noise = torch.randn(b_size, nz, 1, 1, device=device, dtype=torch.float)
             fake_img = net_g(noise)
-            fake_label = torch.full((b_size,), fake_idx, device=device)
+            fake_label = torch.full((b_size,), fake_idx, device=device, dtype=torch.float)
 
             # train D with real img
             out_d_real = net_d(real_img)
