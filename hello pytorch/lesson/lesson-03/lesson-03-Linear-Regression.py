@@ -52,3 +52,5 @@ for iteration in range(1000):
 
         if loss.data.numpy() < 1:
             break
+    plt.show()
+
