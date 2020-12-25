@@ -41,7 +41,7 @@ for iteration in range(1000):
 
     # 绘图
     if iteration % 20 == 0:
-
+        plt.cla()   # 防止社区版可视化时模型重叠2020-12-15
         plt.scatter(x.data.numpy(), y.data.numpy())
         plt.plot(x.data.numpy(), y_pred.data.numpy(), 'r-', lw=5)
         plt.text(2, 20, 'Loss=%.4f' % loss.data.numpy(), fontdict={'size': 20, 'color':  'red'})
