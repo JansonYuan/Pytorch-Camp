@@ -34,7 +34,7 @@ if flag:
 
 
     gpu_memory = get_gpu_memory()
-    if not gpu_memory:
+    if gpu_memory:
         print("\ngpu free memory: {}".format(gpu_memory))
         gpu_list = np.argsort(gpu_memory)[::-1]
 
