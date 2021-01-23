@@ -144,7 +144,6 @@ for epoch in range(MAX_EPOCH):
 
             loss_val_epoch = loss_val / len(valid_loader)
             valid_curve.append(loss_val_epoch)
-            # valid_curve.append(loss.item())    # 20191022改，记录整个epoch样本的loss，注意要取平均
             print("Valid:\t Epoch[{:0>3}/{:0>3}] Iteration[{:0>3}/{:0>3}] Loss: {:.4f} Acc:{:.2%}".format(
                 epoch, MAX_EPOCH, j+1, len(valid_loader), loss_val_epoch, correct_val / total_val))
 
@@ -153,7 +152,7 @@ train_x = range(len(train_curve))
 train_y = train_curve
 
 train_iters = len(train_loader)
-valid_x = np.arange(1, len(valid_curve)+1) * train_iters*val_interval # 由于valid中记录的是epochloss，需要对记录点进行转换到iterations
+valid_x = np.arange(1, len(valid_curve)+1) * train_iters*val_interval - 1  # 由于valid中记录的是epochloss，需要对记录点进行转换到iterations
 valid_y = valid_curve
 
 plt.plot(train_x, train_y, label='Train')
