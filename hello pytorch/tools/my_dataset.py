@@ -145,7 +145,7 @@ class PortraitDataset(Dataset):
         self.label_path_list = path_list
 
 
-class PennFudanDataset(object):
+class PennFudanDataset(Dataset):
     def __init__(self, data_dir, transforms):
 
         self.data_dir = data_dir
@@ -196,7 +196,7 @@ class PennFudanDataset(object):
         return len(self.names)
 
 
-class CelebADataset(object):
+class CelebADataset(Dataset):
     def __init__(self, data_dir, transforms):
 
         self.data_dir = data_dir
