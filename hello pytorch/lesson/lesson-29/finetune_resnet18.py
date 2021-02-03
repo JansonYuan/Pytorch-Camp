@@ -195,7 +195,6 @@ for epoch in range(start_epoch + 1, MAX_EPOCH):
             valid_curve.append(loss_val_mean)
             print("Valid:\t Epoch[{:0>3}/{:0>3}] Iteration[{:0>3}/{:0>3}] Loss: {:.4f} Acc:{:.2%}".format(
                 epoch, MAX_EPOCH, j+1, len(valid_loader), loss_val_mean, correct_val / total_val))
-        resnet18_ft.train()
 
 train_x = range(len(train_curve))
 train_y = train_curve
