@@ -46,8 +46,8 @@ checkpoint_interval = 10
 image_size = 64
 nc = 3
 nz = 100
-ngf = 128  # 64
-ndf = 128   # 64
+ngf = 64  # 64 / 128
+ndf = 64   # 64 / 128
 num_epochs = 20
 fixed_noise = torch.randn(64, nz, 1, 1, device=device)
 
